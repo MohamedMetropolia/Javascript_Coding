@@ -1,4 +1,4 @@
-const number = parseInt(prompt('Enter a positive number: '));
+let number = parseInt(prompt('Enter a positive number: '));
 let isPrime = true;
 
 if (number === 1) {

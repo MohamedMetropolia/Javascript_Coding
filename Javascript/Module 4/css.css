@@ -20,7 +20,7 @@ body dialog {
 }
 
 input#submitbutton {
-    border-radius: 4px;
+    border-radius: 10px;
     background-color: slategrey;
     border: none;
     color: #FFFFFF;
@@ -29,25 +29,27 @@ input#submitbutton {
     padding: 10px;
     width: 90px;
     cursor: pointer;
-    margin: 2.5px;
+    margin: 3px;
 }
 
 input#query {
+    border-radius: 10px;
     background-color: slategrey;
     border: none;
     text-align: center;
     font-size: 20px;
     padding: 10px;
     width: 150px;
-    margin: 2.5px;
+    margin: 3px;
     color: white;
-    transition: width 10s ease-in-out;
+    transition: width 0.5s ease-in-out;
 }
 
-::placeholder{
+::placeholder {
     color: #cccccc;
     transition: opacity 0.4s ease-in-out;
 }
+
 input#query:focus {
     width: 200px;
 }
@@ -96,7 +98,6 @@ dialog nav #modalTitle {
 }
 
 #shows .show h2 {
-    margin: 0px;
     margin-bottom: 10px;
     max-width: 200px;
     text-align: center;

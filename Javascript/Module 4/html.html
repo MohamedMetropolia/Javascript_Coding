@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css.css" rel="stylesheet">
+</head>
+<body>
+<dialog>
+    <nav>
+        <h2 id="modalTitle"></h2>
+        <div id="closeModel">&#10005;</div>
+    </nav>
+    <iframe name="details" height="400" width="500" title="More details"></iframe>
+</dialog>
+<div class="center">
+    <form action="https://api.tvmaze.com/search/shows?" style="text-align: center">
+        <label for="query"></label><input id="query" name="q" type="text" placeholder="Search" autocomplete="off"
+                                          spellcheck="false">
+        <input id="submitbutton" type="submit" value="Search">
+    </form>
+</div>
+<div id="shows"></div>
+<script src="api.js"></script>
+</body>
+</html>
